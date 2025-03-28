@@ -1,0 +1,140 @@
+.header_link{
+font-size: 40px;
+font-family: georgia;
+letter-spacing: -3px;  
+font-weight: lighter;
+ text-decoration: none;
+ color:black;
+}
+
+.subhead_link{
+
+}
+
+.link{
+    font-size: 15px;
+    font-family: courier;
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    
+    transition: transform s;
+}
+img:hover{
+    transform:scale;
+    z-index: 2;
+    ;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: georgia;
+    letter-spacing: -1px;  
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: courier;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: georgia;
+    letter-spacing: -1px; 
+    text: italic;
+    font-weight: lighter;
+}
+
+p {
+  font: size 15px;
+  font-family: Verdana;
+  font-weight: normal;
+  color: black
+
+}
+
+.container {
+    flex-wrap: wrap;
+    flex-direction: ;
+    display: flex;
+    right:0;
+    margin-top: 20px;
+    margin-left:22%;
+    overflow: scroll;
+    background-color: #FEFDF6;
+    gap: 20px;
+    row-gap:20px;
+    align-items:baseline
+}
+
+
+.big_header {
+    text-align: center;
+    align-items:center;
+    display:flex;
+    width: 100%;
+    margin-left:30%;
+    height: 50px;
+    color: black;
+    flex-wrap: wrap;
+    gap: 200px;
+    position: sticky; top:25px;
+}
+
+.side_bar {
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: scroll;
+    background-color:#FEFDF6;
+    width:17%;
+    height:100%;
+    position: fixed;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    z-index: 0;
+}
+
+.blog_bar {
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: scroll;
+    background-color:#FEFDF6;
+    width:17%;
+    height:100%;
+    position: fixed;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    z-index: 0;
+}
+
+.about_beans{
+    font-family:Georgia;
+    font-size: 250px;
+    text-align: left;
+    line-height: 70%;
+    letter-spacing: -25px;  
+font-weight: lighter;
+    margin-bottom: -10px;
+}
+
+.img_container{
+    flex-wrap:wrap;
+    flex-direction: row;
+    display:flex;
+    border: black 1px;
+    gap: 10px;
+    row-gap: 10px;
+}
